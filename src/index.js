@@ -1,6 +1,7 @@
 import {Task} from './task-constructor'
 import {Project} from './project-constructor'
-import {displayTask} from './task-display'
+// import {displayTask} from './task-display'
+import {displayProject} from './project-display'
 
 const exampleTasks = [
     new Task('Task 1', 'Comment 1', 'Jan 1st'),
@@ -9,10 +10,7 @@ const exampleTasks = [
 ]
 
 const exampleProject = new Project('Odin-lessons', exampleTasks)
-console.log(exampleProject)
-
 const exampleProjectTwo = new Project('Odin-lessons', exampleTasks)
-console.log(exampleProjectTwo)
 
 const body = document.querySelector('body')
-body.appendChild(displayTask(exampleTasks[2]))
+body.appendChild(displayProject(exampleProject))
