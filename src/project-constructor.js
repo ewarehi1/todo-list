@@ -1,6 +1,6 @@
 class Project {
-    constructor(name, items) {
-        this.name = name
+    constructor(title, items) {
+        this.title = title
         this.items = items
     }
 }

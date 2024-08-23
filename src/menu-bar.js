@@ -6,7 +6,7 @@ function menuBar(projArr) {
         tab.setAttribute('class', 'tab')
 
         const button = document.createElement('button')
-        button.innerText = obj.name
+        button.innerText = obj.title
 
         tab.appendChild(button)
         projectsContainer.appendChild(tab)

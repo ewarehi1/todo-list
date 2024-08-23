@@ -2,7 +2,7 @@ import {Task} from './task-constructor'
 import {Project} from './project-constructor'
 import {displayProject} from './project-display'
 import {menuBar} from './menu-bar'
-import {deleteTask} from './delete-task'
+import {deleteItem} from './delete-item'
 
 
 const exampleTasks = [
@@ -26,6 +26,12 @@ const odinProject = projects[0].items
 
 console.log(odinProject)
 
-deleteTask(odinProject, 'Task 1')
+deleteItem(odinProject, 'Task 1')
 
 console.log(odinProject)
+
+console.log(projects)
+
+deleteItem(projects, 'Odin-lessons')
+
+console.log(projects)

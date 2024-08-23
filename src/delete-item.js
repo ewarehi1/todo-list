@@ -1,4 +1,4 @@
-function deleteTask(projectArray, projectTask) {
+function deleteItem(projectArray, projectTask) {
     const pos = projectArray.find(task => {
         task.title == projectTask
     })
@@ -6,4 +6,4 @@ function deleteTask(projectArray, projectTask) {
     projectArray.splice(pos, 1)
 }
 
-export{deleteTask}
+export{deleteItem}

@@ -4,7 +4,7 @@ function displayProject(project) {
     const projectContainer = document.createElement('div')
 
     const projectTitle = document.createElement('div')
-    projectTitle.textContent = project.name
+    projectTitle.textContent = project.title
 
     const projectTasks = document.createElement('ul')
     for (let task of project.items) {
