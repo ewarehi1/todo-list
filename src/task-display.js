@@ -10,6 +10,9 @@ function displayTask(task) {
     const dueDate = document.createElement('div')
     dueDate.textContent = task.dueDate
 
+    const taskStatus = document.createElement('div')
+    taskStatus.textContent = task.status
+
     container.append(title, description, dueDate)
     return container
 }

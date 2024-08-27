@@ -22,16 +22,4 @@ const projects = [
     new Project('Doki-Doki Literature Club Essay', exampleTasks2)
 ]
 
-const odinProject = projects[0].items
-
-console.log(odinProject)
-
-deleteItem(odinProject, 'Task 1')
-
-console.log(odinProject)
-
-console.log(projects)
-
-deleteItem(projects, 'Odin-lessons')
-
-console.log(projects)
+console.log(exampleTasks[0])
