@@ -3,6 +3,7 @@ import {Project} from './project-constructor'
 import {displayProject} from './project-display'
 import {menuBar} from './menu-bar'
 import {deleteItem} from './delete-item'
+import {projectForm} from './project-form'
 
 
 const exampleTasks = [
@@ -22,4 +23,4 @@ const projects = [
     new Project('Doki-Doki Literature Club Essay', exampleTasks2)
 ]
 
-console.log(exampleTasks[0])
+document.body.appendChild(projectForm())
